@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
-      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-lg">
+      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xl">
         <h2 className="text-xl font-semibold text-gray-800 mb-4 text-center">
           INITIA Airdrop Checker
         </h2>
@@ -177,6 +177,9 @@ function App() {
           </div>
         )}
       </div>
+      <footer className="mt-6 text-gray-500 text-sm">
+        Made with ❤️ @abbyestt
+      </footer>
     </div>
   );
 }
