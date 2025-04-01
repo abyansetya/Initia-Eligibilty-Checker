@@ -115,7 +115,7 @@ function App() {
                 <p className="text-gray-800 break-all">{data.evm_id}</p>
               </div>
 
-              <div>
+              <div className="flex items-center justify-between">
                 <span className="font-medium text-gray-600">Amount:</span>
                 <p className="text-blue-600 font-semibold">
                   {
@@ -167,7 +167,7 @@ function App() {
                 </span>
               </div>
 
-              <div>
+              <div className="flex items-center justify-between">
                 <span className="font-medium text-gray-600">Total XP:</span>
                 <p className="text-indigo-600 font-semibold">
                   {Number(data.total_xp).toLocaleString()}
